@@ -1,1 +1,50 @@
-// TODO
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 5rem 0;
+
+  .bodyContent {
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 1rem 0;
+    }
+    ul {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      margin-left: 20%;
+      line-height: 1.5rem;
+    }
+
+    p {
+      line-height: 2rem;
+      color: #f8f8f8;
+      font-size: 18px;
+      margin: 0 20%;
+    }
+  }
+  img {
+    height: 300px;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  div {
+    span {
+      color: var(--subtitle);
+      font-size: 0.9rem;
+    }
+    svg {
+      margin-right: 0.1rem;
+    }
+
+    span + span {
+      margin-left: 1rem;
+    }
+  }
+}

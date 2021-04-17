@@ -1,1 +1,32 @@
-// TODO
+.header {
+  height: 105px;
+  background: var(--background-dark);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 0 0 0 20%;
+
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    b {
+      color: var(--primary);
+      margin: 0 0 0 0.3rem;
+    }
+    span {
+      font-weight: bold;
+      margin: 0 0 0 1.5rem;
+      font-size: 25px;
+    }
+  }
+}

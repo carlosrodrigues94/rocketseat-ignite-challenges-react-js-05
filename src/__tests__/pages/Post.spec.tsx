@@ -250,6 +250,8 @@ describe('Post', () => {
 
     render(<Post post={postProps} />);
 
+    console.log('TIMEEEE===>', screen.getByTestId('time-min'));
+
     screen.getByText('Como utilizar Hooks');
     screen.getByText('25 mar 2021');
     screen.getByText('Joseph Oliveira');

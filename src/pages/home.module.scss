@@ -1,1 +1,45 @@
-// TODO
+.container {
+  width: 100%;
+  padding: 1rem 20%;
+
+  .postContent {
+    margin: 3rem 0;
+    transition: all 0.2s;
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+  h2 {
+    margin: 0 0 0.5rem 0;
+  }
+  p {
+    margin: 0 0 1.3rem 0;
+    color: var(--subtitle);
+    font-size: 1.1rem;
+  }
+
+  div {
+    span {
+      color: var(--subtitle);
+      font-size: 0.9rem;
+    }
+    svg {
+      margin-right: 0.1rem;
+    }
+
+    span + span {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.buttonNextPage {
+  background: transparent;
+  border: 0;
+  color: var(--primary);
+  font-weight: bold;
+  margin-left: 20%;
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
